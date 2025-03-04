@@ -1,0 +1,67 @@
+body{
+    margin: 0; /*space around elements*/
+    display: flex; 
+    justify-content: center; /*for horizontal alignment*/
+    align-items: center; /*for vertical alignment*/
+    height: 100vh; /*100% of the viewpoint height*/
+    background-color: #ddadb5;
+}
+
+
+#calculator{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #FB8DA0;
+    border-radius: 30px;
+    max-width: 520px;
+    overflow: hidden; /*hides elements if it overflows, mostly for the display*/
+
+}
+
+#display{
+    width: 100%;
+    padding: 10px;
+    font-size: 4rem;
+    text-align: left;
+    border: none;
+    background-color: #FB6B90;
+    color: #faedef;
+}
+
+#keys{ /*keys is a development that contains all the buttons*/
+display: grid;
+grid-template-columns: repeat(4, 1fr); /*4 columns, fr=fractional unit - the columns take up an even amount of space*/
+gap: 15px; /*displays the gaps between the rows*/
+padding: 30px;
+
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px; /*rounds the buttons*/
+    border: none;
+    background-color: #FB4570 ;
+    color: #fca3b2;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: default;
+}
+button:hover{ /*decides what will happen to the buttons when you hover your cursor over them*/
+    background-color: #f32a59;
+    font-size: 50px;
+    width: 103px;
+    height: 102px;
+}
+button:active{ /*how it will look like when you click on the buttons*/
+    background-color: #ff537b;
+}
+
+.operator-btn{
+    background-color: #faedef;
+}
+.operator-btn:hover{
+    background-color: #fad0d7;
+}
+.operator-btn:active{
+    background-color: #faedef;
+}
