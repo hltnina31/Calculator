@@ -20,6 +20,7 @@ body{
 #display{
     width: 100%;
     padding: 10px;
+    padding-left: 42px;
     font-size: 4rem;
     text-align: left;
     border: none;
