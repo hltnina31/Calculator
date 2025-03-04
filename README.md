@@ -1,5 +1,6 @@
 # Simple calculator with a pink theme
 **1. Preview**
+
 **2. How to use** 
 
 ## 1. Preview
@@ -8,7 +9,7 @@ than the background color itself. This is to ensure that the user will be able t
 without having any issue with it blending in the background. As how it´s displayed, the mathematical symbols and the numbers
 are in two different colors. This is to ensure that there is a contrast between them, so it´s easier for the user to differentiate them.
 
-(![A screenshot that displays the look and the background of the pink themed calculator](image.png))
+![A screenshot that displays the look and the background of the pink themed calculator](image.png)
 
 When a user is hovering over the numbers and the mathematical symbols with the cursor, a darker shade will display. The same thing 
 will happen when the user interact with the buttons by clicking it, however a lighter shade will display. In addition to
